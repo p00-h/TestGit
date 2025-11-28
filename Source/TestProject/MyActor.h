@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// MyActor.h
 
 #pragma once
 
@@ -7,17 +7,13 @@
 #include "MyActor.generated.h"
 
 UCLASS()
-class TESTPROJECT_API AMyActor : public AActor
+class TEAMPROJECT_API AMyActor : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	AMyActor();
 
-protected:
 	virtual void BeginPlay() override;
-
-public:	
-	virtual void Tick(float DeltaTime) override;
 
 };
